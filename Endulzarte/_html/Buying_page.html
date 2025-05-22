@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Product Purchase</title>
+  <link rel="stylesheet" href="../_css/buy.css">
+
+</head>
+<body class="body">
+
+<div class="product">
+  <img src="../_img/chuche1.jpg" alt="Producto 1: Dentaduras">
+  <div class="controls">
+    <button class="botp" onclick="updateQuantity(1, -1)">-</button>
+    <span id="quantity1" class="quantity">0</span>
+    <button class="botp" onclick="updateQuantity(1, 1)">+</button>
+  </div>
+</div>
+
+<div class="product">
+  <img src="../_img/chuche2.jpg" alt="Producto 2: Dedos">
+  <div class="controls">
+    <button class="botp" onclick="updateQuantity(2, -1)">-</button>
+    <span id="quantity2" class="quantity">0</span>
+    <button class="botp" onclick="updateQuantity(2, 1)">+</button>
+  </div>
+</div>
+
+<div class="product">
+  <img src="../_img/chuche3.jpg" alt="Producto 3: Fresitas">
+  <div class="controls">
+    <button class="botp" onclick="updateQuantity(3, -1)">-</button>
+    <span id="quantity3" class="quantity">0</span>
+    <button class="botp" onclick="updateQuantity(3, 1)">+</button>
+  </div>
+</div>
+
+<button id="buy-button" onclick="sendEmail()">Comprar</button>
+<button onclick="change('Main_page.html')" id="buy-button">Volver</button>
+
+<script src="../_js/_script.js"></script>
+
+</body>
+</html>

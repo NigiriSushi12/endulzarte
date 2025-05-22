@@ -1,0 +1,39 @@
+    .botp {
+      background-color: #4CAF50;
+      color: white;
+    }
+    .product {
+      display: inline-block;
+      margin: 10px;
+      text-align: center;
+    }
+    .product img {
+      width: 150px;
+      height: 150px;
+      border-radius: 8px;
+    }
+    .controls {
+      margin-top: 5px;
+    }
+    button {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    .quantity {
+        color: white;
+      margin: 0 10px;
+      font-size: 1.2em;
+      vertical-align: middle;
+    }
+    #buy-button {
+      display: block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1.5em;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+    .body{
+    background-color: #333;
+}
